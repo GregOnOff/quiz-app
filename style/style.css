@@ -49,7 +49,14 @@ body {
   padding: 8px;
   margin-top: 20px;
   background-color: var(--primary-color);
+  box-shadow: 3px 3px 3px #555;
   border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.card-ans-btn:hover {
+  transition: 500ms;
+  transform: scale(0.9);
+  box-shadow: none;
 }
 
 .card-answer {
@@ -71,7 +78,6 @@ body {
 .tag-list {
   display: flex;
   gap: 10px;
-
   margin-top: 160px;
   flex-wrap: wrap;
   list-style-type: none;
