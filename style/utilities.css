@@ -1,0 +1,8 @@
+:root {
+  --primary-color: #0578eb;
+  --secondary-color: #154f8a;
+  --dark-color: #04213f;
+  --light-color: #669acf;
+  --primary-gradient-color: hsl(210, 96%, 47%, 0.55);
+  --secondary-gradient-color: hsla(210, 82%, 19%, 0.55);
+}
