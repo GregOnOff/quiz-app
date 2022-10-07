@@ -1,0 +1,14 @@
+{
+  "folders": [
+	{
+		"name": "quiz-app",
+		"path": ".."
+	},
+	{
+		"path": "../../../Downloads/quiz-app-demo-html-and-css-main - Kopie/components"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "quiz-app"
+  }
+}
