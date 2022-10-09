@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/utilities.css" />
+    <link rel="stylesheet" href="/style/card.css">
+    <link rel="stylesheet" href="/style/button.css">
+    <link rel="stylesheet" href="/style/header.css">
+    <link rel="stylesheet" href="/style/bot-navbar.css">
+    <link rel="stylesheet" href="/style/animation.css">
+    <link rel="stylesheet" href="/style/form.css">
+    
+    <script src="/javascript/main.js" defer></script>
+    <script src="/javascript/add_cards.js" defer></script>
+    <title>Quiz App</title>
+  </head>
+  <body>
+    <header class="header-box">
+      <h1 class="head-title">| Quiz-App |</h1>
+    </header>
+    <main class="form-main">
+      <section class="quiz-card-form">
+        <form action="submit" class="new_card_form">
+          
+          <label for="question">Your question</label>
+          <textarea cols="20" rows="10" class="question-area"></textarea>
+        
+        
+          <label for="answer" >Your answer</label>
+          <textarea cols="20" rows="10" class="answer-area"></textarea>
+        
+        
+          <label for="add_tags">Add your Tags</label>
+          <input type="text">
+        
+          <button type="submit">submit</button>
+        </form>
+  
+      </section>
+    </main>
+    <footer>
+      <nav class="navbar">
+        <a href="index.html" alt="home">
+          <img src="/icons/home_outline_36dp.svg" alt="home icon" class="incon-nav"/>
+        </a>
+        <a href="#" alt="bookmarks">
+          <img src="/icons/bookmarks_outline_36dp.svg" alt="bookmarks icon" class="incon-nav"/>
+        </a>
+        <a href="form.html" alt="profile">
+          <div>
+          <img src="/icons/icons8-plus-48.svg" alt="add_form" class="incon-nav" width="36px"/>
+        </div>
+        </a>
+        <a href="#" alt="profile">
+          <div>
+          <img src="/icons/account_circle_outline_36dp.svg" alt="profile" class="incon-nav"/>
+        </div>
+        </a>
+      </nav>
+    </footer>
+  </body>
+</html>

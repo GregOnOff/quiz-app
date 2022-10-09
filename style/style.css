@@ -1,3 +1,5 @@
+
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,101 +7,23 @@
 }
 
 body {
-  background-color: var(--light-color);
+  background: url(/img/brick-bg.jpg);
   font-family: sans-serif;
+  
 }
 
-.header-box {
+main {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--primary-color);
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
-  border: 2px solid black;
-  box-shadow: 4px 4px 4px black;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  color: white;
-}
-
-.head-title {
-  padding: 10px;
-}
-
-.quiz-card {
-  position: relative;
-  display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 5px 5px 10px #333;
-  height: 350px;
-  background-color: antiquewhite;
-  margin: 100px 50px;
-  border-radius: 20px;
+  
 }
 
-.card-ans-btn {
-  font-size: 20px;
-  border-radius: 16px;
-  padding: 8px;
-  margin-top: 20px;
-  background-color: var(--primary-color);
-  box-shadow: 3px 3px 3px #555;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-}
 
-.card-ans-btn:hover {
-  transition: 500ms;
-  transform: scale(0.9);
-  box-shadow: none;
-}
 
-.card-answer {
-  font-style: italic;
-  padding: 30px;
-}
 
-.card-answer-hide {
-  display: none;
-}
 
-.card-tag {
-  font-family: "monospace", "Courier New", Courier;
-  border-radius: 4px;
-  padding: 4px;
-  background-color: var(--secondary-color);
-}
 
-.tag-list {
-  display: flex;
-  gap: 10px;
-  margin-top: 160px;
-  flex-wrap: wrap;
-  list-style-type: none;
-  align-self: center;
-}
 
-.card-bm-icon {
-  position: absolute;
-  top: -15px;
-  right: 10px;
-}
 
-.navbar {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: var(--dark-color);
-  position: fixed;
-  padding: 1rem;
-  border-top: 2px solid rgb(0, 0, 0);
-}
+
