@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="/style/header.css">
     <link rel="stylesheet" href="/style/bot-navbar.css">
     <link rel="stylesheet" href="/style/animation.css">
+    <script src="/javascript/main.js" defer></script>
+    <script src="/javascript/add_cards.js" defer></script>
     <title>Quiz App</title>
   </head>
   <body>
@@ -19,7 +21,7 @@
     </header>
     <main>
       <section class="quiz-card">
-        <input
+        <input data-js="bookmark-icon"
           type="image"
           class="card-bm-icon icon--size"
           src="/icons/bookmark_outline_36dp.svg"
@@ -40,7 +42,7 @@
         </ul>
       </section>
       <section class="quiz-card">
-        <input
+        <input 
           type="image"
           class="card-bm-icon icon--size"
           src="/icons/bookmark_black_36dp.svg"

@@ -1,8 +1,14 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
+
+
+/* colors */
 :root {
-  --primary-color: #0578eb;
-  --secondary-color: #154f8a;
-  --dark-color: #04213f;
-  --light-color: #669acf;
-  --primary-gradient-color: hsl(210, 96%, 47%, 0.55);
-  --secondary-gradient-color: hsla(210, 82%, 19%, 0.55);
+  --primary-color: #cc00ff;
+  --secondary-color: #ff0063;
+  --dark-color: #04005e;
+  --light-color: #440bd4;
+  
+
 }

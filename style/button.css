@@ -1,0 +1,66 @@
+
+
+  .card-ans-btn {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 12px 15px;
+    margin-top: 10px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: var(--secondary-color) 0.125em solid;
+    border-radius: .25em;
+    text-shadow: 0 0 0.15em hsl(0, 0%, 70%), 0 0 0.55em currentColor;
+    box-shadow: inset 0 0 .65em var(--secondary-color),
+     0 0 .75em var(--secondary-color);
+    position: relative;
+    transition: 500ms ease-in;
+    cursor: pointer;
+  }
+
+  .card-ans-btn::before {
+    content: '';
+    position: absolute;
+    background: var(--secondary-color);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: perspective(2em) rotateX(40deg) scale(1, 0.5);
+    filter: blur(1.5em);
+    opacity: 0.8;
+    pointer-events: none;
+
+    }
+    .card-ans-btn::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--secondary-color);
+        box-shadow: 0 0 2em 0.8em var(--secondary-color);
+        opacity: 0;
+        transition: 200ms ease-in;
+    }
+    .card-ans-btn:hover::after {
+        content: 'SURE?';
+        font-size: 1.5em;
+        color: beige;
+        opacity: 1;
+        transition: 200ms ease-in;
+    }
+    .card-ans-btn:hover::before {
+        scale: 1.5;
+        transition: 200ms ease-in;
+    }
+  
+  /* .card-ans-btn:hover {
+    transition: 500ms;
+    transform: scale(0.95);
+    box-shadow: none;
+    box-shadow: inset 0 0 .8em var(--secondary-color);
+    cursor: pointer;
+
+  } */

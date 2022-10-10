@@ -1,0 +1,92 @@
+.quiz-card {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 10px #333;
+    height: 350px;
+    width: 70vw;
+    scale: 2 / 1;
+    background: url(/img/bg-header.jpg);
+    background-size: cover;
+    margin: 60px 0px;
+    border-radius: 15px;
+  }
+
+  .quiz-card:first-child {
+    margin-top: 160px;
+  }
+  .quiz-card:last-child {
+    margin-bottom: 100px;
+  }
+
+  .card--question {
+  font-family: sans-serif ;
+  font-weight: bold;
+  font-size: 1.5em;
+  z-index: 10;
+
+}
+
+
+  .quiz-card h2 {
+    font-size: 2rem;
+  }
+  
+  .card-tag {
+    font-family: "monospace", "Courier New", Courier;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: var(--secondary-color);
+  }
+  
+  .tag-list {
+    display: flex;
+    font-size: 1.5rem;
+    gap: 10px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-self: center;
+    overflow: hidden;
+  }
+  
+  .card-bm-icon {
+    
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    }
+
+    .card-bm-icon-js {
+        filter: invert(1);
+    }
+
+
+
+  .card-bm-icon:hover {
+    animation: wiggle 0.7s ease-in-out;
+    animation-delay: 0.1s;
+
+  }
+
+  .icon--size {
+    width: 5em;
+
+  }
+
+  /* ANSWERS HIDDEN / SHOWN */
+  .card-answer {
+    font-style: italic;
+    padding: 15px;
+    z-index: 5;
+    text-align: center;
+    font-size: 1.2em;
+
+  }
+  
+  .card-answer-hide {
+    display: none;
+    transition: 250ms ease-in;
+  }
