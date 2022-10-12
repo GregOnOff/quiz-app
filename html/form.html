@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/style/animation.css">
     <link rel="stylesheet" href="/style/form.css">
     
-    <script src="/javascript/main.js" defer></script>
+    <!-- <script src="/javascript/main.js" defer></script> -->
     <script src="/javascript/add_cards.js" defer></script>
     <title>Quiz App</title>
   </head>
@@ -22,21 +22,23 @@
       <h1 class="head-title">| Quiz-App |</h1>
     </header>
     <main class="form-main">
+
       <section class="quiz-card-form">
-        <form action="submit" class="new_card_form">
+        <form action="submit" class="new_card_form" data-js="form">
+            <h2 class="form-head">Write your own Quiz!</h2>
           
-          <label for="question">Your question</label>
-          <textarea cols="20" rows="10" class="question-area"></textarea>
+          <label for="question">Your question:</label>
+          <textarea  class="question-area" maxlength="150" data-js="questionTextarea"></textarea>
+          <div class="charsLeftContainer" id="clc">150 Characters remain</div>
         
-        
-          <label for="answer" >Your answer</label>
-          <textarea cols="20" rows="10" class="answer-area"></textarea>
-        
+          <label for="answer" >Your answer:</label>
+          <textarea  class="answer-area" maxlength="150" data-js="answerTextarea"></textarea>
+          <div class="charsLeftContainer" id="clc2">150 Characters remain</div>
         
           <label for="add_tags">Add your Tags</label>
           <input type="text">
         
-          <button type="submit">submit</button>
+          <button type="submit" data-js="submitButton">submit</button>
         </form>
   
       </section>
