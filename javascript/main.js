@@ -14,7 +14,9 @@ const hide_show = document.querySelector('[data-js="hidden_shown"]');
 
 ans_btn.addEventListener('click', () => {
     hide_show.classList.toggle('card-answer-hide');
-    ans_btn.textContent = 'HIDE ANSWER';
+    if (ans_btn.textContent === 'Show Answer') {
+        ans_btn.textContent = 'Hide Answer';
+    } else ans_btn.textContent ='Show Answer';
     
 
-})
+});
